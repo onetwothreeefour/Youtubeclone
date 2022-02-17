@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Youtube</title>
+    <script
+        src="https://kit.fontawesome.com/2d323a629b.js"
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+
+    <section class="player">
+        <video autoplay controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- Video Info-->
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Winter</li>
+                <li>#aespa</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    Clone Coding: 대충 윈터 영상올림
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            
+            <span class="view">1M views 1 month ago</span>
+
+        </div>
+        <ul class="actions">
+            <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+        </ul>
+        <div class="channel">
+            <div class="metadata">
+              <img width="50" height="50" src="image/winter1.png" alt="" />
+              <div class="info">
+                <span class="name">윈터 개이쁘덩</span>
+                <span class="subscribers">100M subscribers</span>
+              </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="upNext">
+      <span class="title">Up Next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="image/winter2.png" alt=""/></div>
+          <div class="info">
+            <span class="title">유튜브 클론 코딩 하는 중 윈터1</span>
+            <span class="name">윈터 개이쁘덩</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/winter3.jpeg" alt=""/></div>
+          <div class="info">
+            <span class="title">유튜브 클론 코딩 하는 중 윈터2</span>
+            <span class="name">윈터 개이쁘덩</span>
+            <span class="views">50K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/winter4.jpeg" alt=""/></div>
+          <div class="info">
+            <span class="title">유튜브 클론 코딩 하는 중 윈터3</span>
+            <span class="name">윈터 개이쁘덩</span>
+            <span class="views">100K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+      </ul>
+    </section>
+</body>
+</html>
